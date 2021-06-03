@@ -32,7 +32,7 @@ root.resizable(width=False,height=False)
 frma1 = tk.Frame(root, width=ww+50, height=wh+50, relief=tk.GROOVE)
 frma1.place(relx=0, rely=0)
 
-I1=cv2.imread('image/logo2.png')
+I1=cv2.imread('image/Bayeslogo.png')
 I2=cv2.resize(I1,(ww,wh))
 cv2.imwrite('image/logo.png', I2)
 image_file = tk.PhotoImage(file='image/logo.png')
